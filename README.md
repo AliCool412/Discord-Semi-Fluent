@@ -13,8 +13,14 @@ Theme for Vencord to mimic Fluent Design Language.
 1. Select "Mica" background material (or any that you'd like) at the very bottom of Vencord settings.
 2. Relaunch Discord.
 
-### To Apply Theme
-1. Download `fluent-discord.css` and copy/move it to your BetterDiscord/Vencord theme folder.
+## To Apply Theme
+### Local File
+1. Download [`fluent-discord.css`](https://github.com/AliCool412/Discord-Semi-Fluent/blob/main/fluent-discord.css) and copy/move it to your BetterDiscord/Vencord theme folder.
 2. Enable it from your respective theme settings.
+
+### QuickCSS
+1. Go to  [`fluent-discord.css`](https://github.com/AliCool412/Discord-Semi-Fluent/blob/main/fluent-discord.css).
+2. Copy raw file.
+3. Paste it in your QuickCSS editor.
 
 ![Screenshot](screenshot.png)
