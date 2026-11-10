@@ -1,0 +1,127 @@
+/**
+ * @name Discord Semi-Fluent
+ * @author Ali Cool
+ * @version 1.0
+ * @description Theme for Vencord to mimic Fluent Design Language.
+ * @website https://github.com/AliCool412/
+ */
+
+[class^="app"],
+[class^="bg"],
+[class^="appMount"],
+[class^="tabBody"],
+[class^="app"],
+[class^="chat"],
+[class^="chatContent"],
+[class^="privateChannels"],
+[class^="scroller"],
+[class^="privateChannels"],
+[class^="container"]:not([role="listbox"], [role="dialog"] [class^="container"], [data-mana-component="modal"]),
+[class^="nowPlayingColumn"],
+[class^="themed"],
+[class^="sidebar"],
+[class^="sidebar"]:after,
+[class^="wrapper"]:not([class^="wrapper"]:has([class^="input"])),
+[class^="visual-refresh"] [class^="clickable"],
+[class^="visual-refresh"] [class^="hasBanner"],
+[class^="header"],
+:where([class^="visual-refresh"]) [class^="themedBackground"],
+[class^="visual-refresh"] [class^="container"],
+[class^="scroller"],
+[class^="theme-light"] [class^="gradient"],
+[class^="backdrop"],
+[class^="visual-refresh"] [class^="contentRegionScroller"],
+[class^="visual-refresh"] [class^="sidebarRegionScroller"],
+[class^="visual-refresh"] [class^="standardSidebarView"],
+[class^="contentRegion"],
+[class^="layer"],
+[class^="fieldList"],
+[class^="children"]:after,
+[class^="visual-refresh"] [class^="content"],
+[class^="chatGradient"],
+[class^="chatTypingGradientNotAtBottom"],
+[class^="chatTypingGradientAtBottom"],
+[class^="channelChatWrapper"],
+[class^="members"],
+[class^="title"],
+[role^="navigation"],
+[class^="itemcard"]
+[class^="theme-dark"],
+[class^="theme-darker"],
+[class^="theme-light"],
+[class^="member"],
+[class^="channelBottomBarArea"],
+[class^="themedBackground"],
+body{
+  background: transparent !important;
+  background-color: transparent !important;
+}
+[class^="page"],
+[class^="itemCard"]{
+    background: #FFFFFF11 !important;
+    border-radius: 8px !important;
+    height: calc(100% - 8px) !important;
+    width: calc(100% - 8px) !important;
+}
+[class^="sidebarList"] {
+    border-inline-start: 0px !important;
+    border-radius: 8px !important;
+    margin-right: 8px !important;
+    margin-bottom: 8px !important;
+    border-top: none !important;
+}
+[class^=aside]{
+    background: transparent !important;
+}
+[class^=bannerImg]{
+    border-radius: 8px !important;
+}
+[class^="page"] > * > *,
+[class^="container"]{
+    border-top: 0px !important;
+}
+[class^="highlight"],
+[class^="actionButton"],
+[class^="actionButton"]:hover,
+[class^="file"]{
+    background: transparent !important;
+    background-color: transparent !important;
+}
+[class^="itemCard"]:hover{
+    background-color: #FFFFFF11 !important;
+}
+[class^=scrollerInner] > [class^="container"],
+[class^=scrollerInner] > [class^="divider"]{
+    position: relative !important;
+    background: transparent !important;
+}
+[class^="sidebarList"] * {
+    border: none !important;
+}
+[class^="tree"]{
+    margin-top: 8px !important;
+}
+[class^="wrapper"]:has([class^="input"]),
+[class^="channelTextArea"],
+[class^="searchBar"]:has([role="combobox"]),
+[data-mana-component="select-input-field"],
+[data-mana-component="select-input-field"] *{
+    border-radius: 32px !important;
+    background: #272727CC !important;
+}
+[class^="channelTextArea"] *:not([class^="autocomplete"]),
+[class^="unread"],
+[class^="channelTextArea"]:has([class^="stackedBars"]),
+[class^="channelTextArea"] [class^="button"],
+[class^="channelTextArea"]{
+    border-radius: 32px !important;
+}
+[class^="channelTextArea"] [role="list"] *{
+    border-radius: 16px !important;
+}
+:root *{
+    border: 0px solid !important;
+}
+[class^="autocomplete"]{
+    border-radius: 16px !important;
+}
