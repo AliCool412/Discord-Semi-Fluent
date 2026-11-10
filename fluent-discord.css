@@ -109,7 +109,7 @@ body{
     border-radius: 32px !important;
     background: #272727CC !important;
 }
-[class^="channelTextArea"] *:not([class^="autocomplete"]),
+[class^="channelTextArea"] *:not([class^="autocomplete"], img),
 [class^="unread"],
 [class^="channelTextArea"]:has([class^="stackedBars"]),
 [class^="channelTextArea"] [class^="button"],
