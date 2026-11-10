@@ -5,7 +5,7 @@ Theme for Vencord to mimic Fluent Design Language, can also be enabled by copyin
 [BetterDiscord](https://betterdiscord.app/) with [MicaForEveryone](https://github.com/MicaForEveryone/MicaForEveryone) or [Vencord](https://vencord.dev/).
 
 ### BetterDiscord
-  1. Add Discord process to MicaForEveryone and set backdrop type to Mica.
+  1. Add `discord.exe` process to MicaForEveryone and set backdrop type to "Mica" (or any that you'd like).
   2. Enable transparency in BetterDiscord settings.
 
 ### Vencord
