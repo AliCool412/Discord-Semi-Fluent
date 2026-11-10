@@ -1,4 +1,4 @@
-# Discord-Semi-Fluent
+# Discord Semi-Fluent
 Theme for Vencord to mimic Fluent Design Language, can also be enabled by copying the CSS to QuickCSS
 
 ## Requirements
