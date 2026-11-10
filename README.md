@@ -1,6 +1,8 @@
 # Discord Semi-Fluent
 Theme for Vencord to mimic Fluent Design Language.
 
+![Screenshot](screenshot.png)
+
 ## To Enable Transparency
 ### Requirements
 [BetterDiscord](https://betterdiscord.app/) with [MicaForEveryone](https://github.com/MicaForEveryone/MicaForEveryone) or [Vencord](https://vencord.dev/).
@@ -22,5 +24,3 @@ Theme for Vencord to mimic Fluent Design Language.
 1. Go to  [`fluent-discord.css`](https://github.com/AliCool412/Discord-Semi-Fluent/blob/main/fluent-discord.css).
 2. Copy raw file.
 3. Paste it in your QuickCSS editor.
-
-![Screenshot](screenshot.png)
