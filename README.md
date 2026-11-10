@@ -12,4 +12,4 @@ Theme for Vencord to mimic Fluent Design Language, can also be enabled by copyin
   1. Select "Mica" background material (or any that you'd like) at the very bottom of Vencord settings.
   2. Relaunch Discord.
 
-[Screenshot](screenshot.png)
+![Screenshot](screenshot.png)
