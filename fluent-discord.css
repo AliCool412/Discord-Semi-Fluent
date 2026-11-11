@@ -52,6 +52,7 @@
 [class^="member"],
 [class^="channelBottomBarArea"],
 [class^="themedBackground"],
+[class^="channelTextArea"] > [class^="scrollableContainer"]
 body{
   background: transparent !important;
   background-color: transparent !important;
@@ -110,6 +111,7 @@ body{
 [class^="stackedBars"]{
     border-radius: 32px !important;
     background: #2B2B2B99 !important;
+    backdrop-filter: blur(10px) !important;
 }
 [class^="channelTextArea"] *:not([class^="autocomplete"], [class^="autocomplete"] *, img),
 [class^="unread"],
