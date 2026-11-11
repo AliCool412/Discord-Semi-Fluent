@@ -124,6 +124,7 @@ body{
 :root *{
     border: 0px solid !important;
     --shadow-border: 0 6px 8px #0003 !important;
+    --background-base-lower: transparent !important;
 }
 [class^="autocomplete"],
 [class^="autocomplete"] *:not([class^="autocomplete"] img){
