@@ -113,8 +113,7 @@ body{
 [class^="channelTextArea"] *:not([class^="autocomplete"], img),
 [class^="unread"],
 [class^="channelTextArea"]:has([class^="stackedBars"]),
-[class^="channelTextArea"] [class^="button"],
-[class^="channelTextArea"]{
+[class^="channelTextArea"] [class^="button"]{
     border-radius: 32px !important;
 }
 [class^="channelTextArea"] [role="list"] *{
