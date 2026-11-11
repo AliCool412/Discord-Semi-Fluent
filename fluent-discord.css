@@ -1,8 +1,8 @@
 /**
- * @name Discord Semi-Fluent
+ * @name Discord Acrylic
  * @author Ali Cool
  * @version 1.0
- * @description Theme for Vencord to mimic Fluent Design Language.
+ * @description Theme for Vencord to enable Acrylic Backdrop.
  * @website https://github.com/AliCool412/
  */
 
@@ -58,23 +58,16 @@ body{
 }
 [class^="page"],
 [class^="itemCard"]{
-    background: #FFFFFF11 !important;
-    border-radius: 8px !important;
-    height: calc(100% - 8px) !important;
-    width: calc(100% - 8px) !important;
+    background: #00000077 !important;
 }
 [class^="sidebarList"] {
     border-inline-start: 0px !important;
-    border-radius: 8px !important;
     margin-right: 8px !important;
     margin-bottom: 8px !important;
     border-top: none !important;
 }
 [class^=aside]{
     background: transparent !important;
-}
-[class^=bannerImg]{
-    border-radius: 8px !important;
 }
 [class^="page"] > * > *,
 [class^="container"]{
@@ -87,8 +80,9 @@ body{
     background: transparent !important;
     background-color: transparent !important;
 }
-[class^="itemCard"]:hover{
-    background-color: #FFFFFF11 !important;
+[class^="itemCard"]:hover,
+[class^="wrapperAudio"]{
+    background-color: #00000077 !important;
 }
 [class^=scrollerInner] > [class^="container"],
 [class^=scrollerInner] > [class^="divider"]{
@@ -106,22 +100,9 @@ body{
 [class^="searchBar"]:has([role="combobox"]),
 [data-mana-component="select-input-field"],
 [data-mana-component="select-input-field"] *{
-    border-radius: 32px !important;
-    background: #272727CC !important;
+    background: #00000077 !important;
 }
-[class^="channelTextArea"] *:not([class^="autocomplete"], img),
-[class^="unread"],
-[class^="channelTextArea"]:has([class^="stackedBars"]),
-[class^="channelTextArea"] [class^="button"],
-[class^="channelTextArea"]{
-    border-radius: 32px !important;
-}
-[class^="channelTextArea"] [role="list"] *{
-    border-radius: 16px !important;
-}
-:root *{
+:root *:not([class^="switchIndicator"], img, [class^="vc-switch-container"]){
     border: 0px solid !important;
-}
-[class^="autocomplete"]{
-    border-radius: 16px !important;
+    border-radius: 0px !important;
 }
