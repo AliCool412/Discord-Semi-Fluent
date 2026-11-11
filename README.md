@@ -27,4 +27,7 @@ Theme for Vencord to mimic Fluent Design Language.
 
 ### Online Themes
 Paste the following into the theme URLs section :
-```https://raw.githubusercontent.com/AliCool412/Discord-Semi-Fluent/main/fluent-discord.css```
+
+```
+https://raw.githubusercontent.com/AliCool412/Discord-Semi-Fluent/main/fluent-discord.css
+```
