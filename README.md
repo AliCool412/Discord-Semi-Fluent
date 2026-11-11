@@ -24,3 +24,7 @@ Theme for Vencord to mimic Fluent Design Language.
 1. Go to  [`fluent-discord.css`](https://github.com/AliCool412/Discord-Semi-Fluent/blob/main/fluent-discord.css).
 2. Copy raw file.
 3. Paste it in your QuickCSS editor.
+
+### Online Themes
+Paste the following into the theme URLs section :
+```https://raw.githubusercontent.com/AliCool412/Discord-Semi-Fluent/main/fluent-discord.css```
