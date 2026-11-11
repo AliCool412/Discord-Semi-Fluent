@@ -21,7 +21,7 @@
 [class^="themed"],
 [class^="sidebar"],
 [class^="sidebar"]:after,
-[class^="wrapper"]:not([class^="wrapper"]:has([class^="input"])),
+[class^="wrapper"]:not([class^="wrapper"]:has([class^="input"]), [class^="wrapperAudio"]),
 [class^="visual-refresh"] [class^="clickable"],
 [class^="visual-refresh"] [class^="hasBanner"],
 [class^="header"],
