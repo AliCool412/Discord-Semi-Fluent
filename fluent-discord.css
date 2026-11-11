@@ -108,7 +108,7 @@ body{
 [data-mana-component="select-input-field"],
 [data-mana-component="select-input-field"] *{
     border-radius: 32px !important;
-    background: #272727CC !important;
+    background: #2B2B2B99 !important;
 }
 [class^="channelTextArea"] *:not([class^="autocomplete"], img),
 [class^="unread"],
