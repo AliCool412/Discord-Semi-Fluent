@@ -52,7 +52,7 @@
 [class^="member"],
 [class^="channelBottomBarArea"],
 [class^="themedBackground"],
-[class^="channelTextArea"] > [class^="scrollableContainer"]
+[class^="channelTextArea"] > [class^="scrollableContainer"],
 body{
   background: transparent !important;
   background-color: transparent !important;
