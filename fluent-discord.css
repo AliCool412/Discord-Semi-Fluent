@@ -130,3 +130,7 @@ body{
 [class^="autocomplete"] *:not([class^="autocomplete"] img, [class^="autocomplete"] [class^="autocompleteRowContentPrimary"]){
     border-radius: 12px !important;
 }
+[class^="body-md"],
+[class^="body-xs"]{
+    border-radius: 0px !important;
+}
