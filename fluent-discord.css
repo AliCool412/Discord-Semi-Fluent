@@ -127,7 +127,7 @@ body{
     --shadow-border: 0 6px 8px #0003 !important;
 }
 [class^="autocomplete"]:not([class^="autocompleteRowContent"]),
-[class^="autocomplete"] *:not([class^="autocomplete"] img, [class^="autocomplete"] [class^="autocompleteRowContentPrimary"]){
+[class^="autocomplete"] *:not([class^="autocomplete"] img,[class^="autocompleteRowContentPrimary"] *){
     border-radius: 12px !important;
 }
 [class^="body-md"],
