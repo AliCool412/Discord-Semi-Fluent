@@ -115,7 +115,7 @@ body{
     backdrop-filter: blur(10px) !important;
 }
 [class^="channelTextArea"] *:not([class^="autocomplete"], [class^="autocomplete"] *, img, [class^="autocomplete"] img),
-[class^="unread"],
+[class^="unread"]:not([class^="unreadPill"]),
 [class^="channelTextArea"] [class^="button"]{
     border-radius: 32px !important;
 }
