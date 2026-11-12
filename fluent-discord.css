@@ -120,7 +120,7 @@ body{
     border-radius: 32px !important;
 }
 [class^="channelTextArea"] [role^="list"] *{
-    border-radius: 8px !important;
+    border-radius: 12px !important;
 }
 :root *:not([class^="repliedMessageClickableSpine"]){
     border: 0px solid !important;
