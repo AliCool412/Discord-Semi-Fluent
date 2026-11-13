@@ -55,7 +55,7 @@
 [class^="channelTextArea"] > [class^="scrollableContainer"],
 [id^="gif-picker-tab-panel"],
 [class^="inspector"],
-body{
+body:not([id^="popout"]){
   background: transparent !important;
   background-color: transparent !important;
   --background-base-lower: transparent !important;
@@ -132,9 +132,6 @@ body{
 [class^="autocomplete"]:not([class^="autocompleteRowContent"]),
 [class^="autocomplete"] *:not([class^="autocomplete"] img, [class^="autocompleteRowContent"] *){
     border-radius: 12px !important;
-}
-[id^="popout"]{
-    background: var(--background-base-lower) !important;
 }
 @media (prefers-color-scheme: light) {
 [class^="wrapper"]:has(> input),
