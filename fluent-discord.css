@@ -105,7 +105,7 @@ body{
 [class^="tree"]{
     margin-top: 8px !important;
 }
-[class^="wrapper"]:has([class^="input"]),
+[class^="wrapper"]:has(> input),
 [class^="channelTextArea"],
 [class^="searchBar"]:has([role="combobox"]),
 [data-mana-component="select-input-field"],
