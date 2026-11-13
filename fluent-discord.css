@@ -134,5 +134,17 @@ body{
     border-radius: 12px !important;
 }
 [id^="popout"]{
-    background: #242424 !important;
+    background: var(--background-base-lower) !important;
+}
+@media (prefers-color-scheme: light) {
+[class^="wrapper"]:has(> input),
+[class^="channelTextArea"],
+[class^="searchBar"]:has([role="combobox"]),
+[data-mana-component="select-input-field"],
+[data-mana-component="select-input-field"] *,
+[class^="stackedBars"],
+[class^="actionBar"]{
+    border-radius: 32px !important;
+    background: #EEEEEE99 !important;
+    backdrop-filter: blur(10px) !important;
 }
