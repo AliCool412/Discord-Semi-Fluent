@@ -53,6 +53,7 @@
 [class^="channelBottomBarArea"],
 [class^="themedBackground"],
 [class^="channelTextArea"] > [class^="scrollableContainer"],
+[id^="gif-picker-tab-panel"],
 body{
   background: transparent !important;
   background-color: transparent !important;
