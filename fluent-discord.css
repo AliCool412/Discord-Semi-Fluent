@@ -55,7 +55,7 @@
 [class^="channelTextArea"] > [class^="scrollableContainer"],
 [id^="gif-picker-tab-panel"],
 [class^="inspector"],
-body:not([id^="popout"]){
+body{
   background: transparent !important;
   background-color: transparent !important;
   --background-base-lower: transparent !important;
@@ -112,7 +112,8 @@ body:not([id^="popout"]){
 [data-mana-component="select-input-field"],
 [data-mana-component="select-input-field"] *,
 [class^="stackedBars"],
-[class^="actionBar"]{
+[class^="actionBar"],
+[id^="popout"]{
     border-radius: 32px !important;
     background: #2B2B2B99 !important;
     backdrop-filter: blur(10px) !important;
@@ -140,7 +141,8 @@ body:not([id^="popout"]){
 [data-mana-component="select-input-field"],
 [data-mana-component="select-input-field"] *,
 [class^="stackedBars"],
-[class^="actionBar"]{
+[class^="actionBar"],
+[id^="popout"]{
     border-radius: 32px !important;
     background: #EEEEEE99 !important;
     backdrop-filter: blur(10px) !important;
