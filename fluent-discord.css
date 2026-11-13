@@ -59,14 +59,6 @@ body{
   background-color: transparent !important;
   --background-base-lower: transparent !important;
 }
-:root{
-  --background-accent: #242424 !important;
-  --background-base-low: #242424 !important;
-  --background-base-lower: #242424 !important;
-  --background-base-lowest: #242424 !important;
-  --background-surface-high: #242424 !important;
-  --background-surface-highest: #242424 !important;
-}
 [class^="page"],
 [class^="itemCard"]{
     background: #FFFFFF11 !important;
@@ -119,8 +111,7 @@ body{
 [data-mana-component="select-input-field"],
 [data-mana-component="select-input-field"] *,
 [class^="stackedBars"],
-[class^="actionBar"],
-[id^="popout"]{
+[class^="actionBar"]{
     border-radius: 32px !important;
     background: #2B2B2B99 !important;
     backdrop-filter: blur(10px) !important;
@@ -140,4 +131,7 @@ body{
 [class^="autocomplete"]:not([class^="autocompleteRowContent"]),
 [class^="autocomplete"] *:not([class^="autocomplete"] img, [class^="autocompleteRowContent"] *){
     border-radius: 12px !important;
+}
+[id^="popout"]{
+    background: #242424 !important;
 }
