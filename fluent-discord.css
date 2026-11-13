@@ -118,7 +118,8 @@ body{
 [class^="searchBar"]:has([role="combobox"]),
 [data-mana-component="select-input-field"],
 [data-mana-component="select-input-field"] *,
-[class^="stackedBars"]{
+[class^="stackedBars"],
+[class^="actionBar"]{
     border-radius: 32px !important;
     background: #2B2B2B99 !important;
     backdrop-filter: blur(10px) !important;
