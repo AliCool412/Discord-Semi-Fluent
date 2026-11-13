@@ -16,7 +16,7 @@
 [class^="privateChannels"],
 [class^="scroller"],
 [class^="privateChannels"],
-[class^="container"]:not([role="listbox"], [role="dialog"] [class^="container"], [data-mana-component="modal"], [class^="nonVisualMediaItem"] *),
+[class^="container"]:not([role="listbox"], [role="dialog"] [class^="container"], [data-mana-component="modal"], [class^="nonVisualMediaItem"] *,[id^="popout"] *),
 [class^="nowPlayingColumn"],
 [class^="themed"],
 [class^="sidebar"],
@@ -141,8 +141,7 @@ body{
 [data-mana-component="select-input-field"],
 [data-mana-component="select-input-field"] *,
 [class^="stackedBars"],
-[class^="actionBar"],
-[id^="popout"]{
+[class^="actionBar"]{
     border-radius: 32px !important;
     background: #EEEEEE99 !important;
     backdrop-filter: blur(10px) !important;
