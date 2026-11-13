@@ -54,6 +54,7 @@
 [class^="themedBackground"],
 [class^="channelTextArea"] > [class^="scrollableContainer"],
 [id^="gif-picker-tab-panel"],
+[class^="inspector"],
 body{
   background: transparent !important;
   background-color: transparent !important;
