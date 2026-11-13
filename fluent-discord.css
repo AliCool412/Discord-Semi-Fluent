@@ -58,6 +58,12 @@ body{
   background-color: transparent !important;
   --background-base-lower: transparent !important;
 }
+:root{
+  --background-accent: #242424 !important;
+  --background-base-low: #242424 !important;
+  --background-base-lower: #242424 !important;
+  --background-base-lowest: #242424 !important;
+}
 [class^="page"],
 [class^="itemCard"]{
     background: #FFFFFF11 !important;
