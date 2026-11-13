@@ -119,7 +119,7 @@ body{
 [class^="channelTextArea"] [class^="button"]{
     border-radius: 32px !important;
 }
-[class^="channelTextArea"] [role^="list"] *{
+[class^="channelTextArea"] [role^="list"] *:not(img){
     border-radius: 12px !important;
 }
 :root *:not([class^="repliedMessageClickableSpine"]){
