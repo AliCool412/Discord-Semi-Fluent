@@ -135,6 +135,11 @@ body{
     border-radius: 12px !important;
 }
 @media (prefers-color-scheme: light) {
+[class^="page"],
+[class^="itemCard"]{
+    border: 1px solid #00000022 !important;
+}
+
 [class^="wrapper"]:has(> input),
 [class^="channelTextArea"],
 [class^="searchBar"]:has([role="combobox"]),
