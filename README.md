@@ -32,5 +32,5 @@ Paste the following into the theme URLs section :
 https://raw.githubusercontent.com/AliCool412/Discord-Semi-Fluent/main/semi-fluent-discord.css
 ```
 
-## Light/Dark Mode Notice :
+## Light/Dark Mode Notice
 The theme doesn't manually change text colors with light and dark modes, so for that you're gonna have to manually set the dark and light theme in appearance settings, toggling between light and dark mode might also break transparency so make sure to relaunch your discord after toggling.
