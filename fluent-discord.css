@@ -126,7 +126,7 @@ body{
 [class^="channelTextArea"] [role^="list"] *:not(img){
     border-radius: 12px !important;
 }
-:root *:not([class^="repliedMessageClickableSpine"]){
+:root *:not([class^="repliedMessageClickableSpine"], [class^="page"]){
     border: 0px solid !important;
     --shadow-border: 0 6px 8px #0003 !important;
 }
